@@ -1,0 +1,36 @@
+{
+  "name": "express-web-app",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "some description",
+  "main": "app.js",
+  "scripts": {
+    "serve": "nodemon"
+  },
+  "keywords": [
+    "express",
+    "framework",
+    "web"
+  ],
+  "author": "",
+  "license": "ISC",
+  "nodemonConfig": {
+    "ignore": [
+      "data",
+      "storage"
+    ]
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.18.2",
+    "express-validator": "^7.0.0",
+    "jsonwebtoken": "^9.0.1",
+    "mongodb": "^5.6.0",
+    "mongoose": "^7.2.4",
+    "multer": "^1.4.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
